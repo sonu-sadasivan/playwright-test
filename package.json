@@ -1,0 +1,15 @@
+{
+  "name": "playwright-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "playwright:test:chromium": "npx playwright test --browser=chromium",
+    "playwright:test": "npx playwright test --project=chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}
