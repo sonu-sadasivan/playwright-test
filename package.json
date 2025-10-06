@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "playwright:test:chromium": "npx playwright test --browser=chromium",
-    "playwright:test": "npx playwright test --project=chromium"
+    "playwright:test": "npx playwright test --project=chromium",
+    "playwright:test:chromium": "npx playwright test --browser=chromium --headed",
+    "playwright:test:firefox": "npx playwright test --browser=firefox --headed",
+    "playwright:test:webkit": "npx playwright test --browser=webkit --headed"
   },
   "author": "",
   "license": "ISC",
