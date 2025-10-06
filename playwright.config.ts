@@ -6,7 +6,7 @@ export default defineConfig({
   retries: 1,                        
   use: {
     headless: false,                
-    baseURL: 'https://example.com',  
+    baseURL: 'https://playwright.dev',  
     screenshot: 'on',                // Capture screenshots on failure
     video: 'retain-on-failure',      // Record video only when failed
   },
