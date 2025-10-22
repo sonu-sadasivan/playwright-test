@@ -1,6 +1,6 @@
-// import { test, expect } from '@playwright/test';
+// import { test, expect } from '../fixtures';
 
-// test('basic test - check page title', async ({ page }) => {
+// test('basic test - check page title', async ({ basketPage }) => {
 //   // Go to a website
 //   await page.goto('/');
 

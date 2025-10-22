@@ -1,18 +1,18 @@
 import { test as base, TestInfo } from '@playwright/test';
 
-import {
-  BasketPage,
-} from './models';
-import { Accessibility, SignIn, skipThirdPartyScripts } from './utils';
-import { LOCALES } from './utils/accounts/shared/constants';
-import { getKibanaLink } from './utils/kibana-link';
-import { mockSearchResults } from './utils/search-mocks';
-import { getSspLink } from './utils/ssp-link';
+// import {
+//   BasketPage,
+// } from './models';
+// import { Accessibility, SignIn, skipThirdPartyScripts } from './utils';
+// import { LOCALES } from './utils/accounts/shared/constants';
+// import { getKibanaLink } from './utils/kibana-link';
+// import { mockSearchResults } from './utils/search-mocks';
+// import { getSspLink } from './utils/ssp-link';
 
 type MyFixtures = {
   basketPage: BasketPage;
   locale: string;
-signInToAccount: SignIn;
+  signInToAccount: SignIn;
 };
 
 const red = '\x1b[31m';

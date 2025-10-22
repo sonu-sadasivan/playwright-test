@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Ada Lovelace",
+    "email": "ada+{{ENV}}@example.com",
+    "created": "{{TODAY}}",
+    "id": "{{UNIQUE_ID}}",
+    "role": "{{ROLE}}"
+  }
+]
